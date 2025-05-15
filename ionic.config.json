@@ -1,0 +1,7 @@
+{
+  "name": "AppCasaLola",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

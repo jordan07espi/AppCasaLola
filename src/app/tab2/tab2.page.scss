@@ -1,0 +1,73 @@
+ion-toolbar {
+  ion-searchbar {
+    padding-bottom: 8px; // Ajuste para que no se pegue al borde
+  }
+}
+
+.pedido-codigo {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--ion-color-primary); // Usa el color primario de tu tema
+}
+
+.pedido-descripcion {
+  font-size: 0.9em;
+  color: var(--ion-color-medium-shade);
+  white-space: normal; // Para que el texto largo se ajuste
+  margin-bottom: 4px;
+}
+
+.pedido-precio {
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.pedido-cliente {
+  font-size: 0.8em;
+  color: var(--ion-color-medium);
+}
+
+.estado-pedido {
+  margin-bottom: 5px;
+  ion-chip {
+    padding: 2px 6px; // Más pequeño
+    height: auto;
+    font-size: 0.75em; // Texto más pequeño
+    ion-icon {
+      font-size: 1.1em; // Ícono un poco más grande que el texto del chip
+    }
+  }
+}
+
+.pedido-id {
+  font-size: 0.8em;
+  color: var(--ion-color-dark-tint);
+  margin-bottom: 2px;
+}
+
+.pedido-fecha-entrega {
+  font-size: 0.8em;
+  color: var(--ion-color-medium-shade);
+}
+
+ion-item-sliding ion-item-option {
+  // Asegura que los botones de swipe sean visibles
+  border-radius: 0;
+}
+
+.empty-icon {
+  font-size: 4em; // Ícono grande para estado vacío
+  color: var(--ion-color-medium-tint);
+  margin-bottom: 16px;
+}
+
+// Ajustes para que los items de la lista se vean bien con la información
+ion-list {
+  ion-item {
+    --inner-padding-end: 8px; // Un poco más de espacio a la derecha del item
+    ion-label {
+      white-space: normal; // Para que el texto se ajuste y no se corte
+    }
+  }
+}
